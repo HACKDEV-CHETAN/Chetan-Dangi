@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION FORM</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="register">
+            <h2> REGISTERATION FORM </h2>
+            <form id="register" method="post">
+                <div>
+                    <label for="fname">First Name: </label>
+                    <input type="text" name="fname" id="name" placeholder="Enter your First Name">
+                    (maximum 15 characters from a-z & A-Z)
+                </div>
+                <br>
+                <div>
+                    <label for="lname">Last Name: </label>
+
+                    <input type="text" name="lname" id="name" placeholder="Enter your Last Name">
+                    (maximum 15 characters from a-z & A-Z)
+                </div>
+                <br>
+                <div>
+                    <label for="myDOB">Date Of Birth: </label>
+                    <input type="date" name="myDOB" id="myDOB">
+                </div>
+                <br>
+                <div>
+                    <label for="myemail">Email Id: </label>
+                    <input type="myemail" name="myemail" id="email" placeholder="Enter you valid Email Id">
+                    (only valid emails are accepted)
+                </div>
+                <br>
+                <div>
+                    <label for="mnumber">Mobile Number: </label>
+                    <input type="number" name="mnumber" id="number" placeholder="Enter you valid Mobile Number">
+                    (10 digits)
+                </div>
+                <br>
+                <div>
+                    <label for="gender">Gender: </label>
+                    &nbsp;&nbsp;&nbsp;
+                    <span id="male">Male</span>
+                    <input type="radio" name="gender" id="male">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span id="female">Female</span>
+                    <input type="radio" name="gender" id="female">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <span id="transgender">Transgender</span>
+                    <input type="radio" name="gender" id="transgender">
+                </div>
+                <br>
+                <div>
+                    <label for="city">City: </label>
+                    <input type="text" id="city" placeholder="City you live in">
+                </div>
+                <br>
+                <div>
+                    <label for="State">State: </label>
+                    <input type="text" id="State" placeholder="State you live in">
+                </div>
+                <br>
+                <div>
+                    <label for="pincode">Pincode: </label>
+                    <input type="number" name="pincode" id="pincode" placeholder="Your area Pincode">
+                    (only 6 digits)
+                </div>
+                <br>
+                <div>
+                    <label for="country">Country: </label>
+                    <select name="country" id="country">
+                        <option value="India">India</option>
+                        <option value="Russia">Russia</option>
+                        <option value="USA">USA</option>
+                        <option value="Bangladesh">Bangladesh</option>
+                        <option value="Sri Lanka">Sri Lanka</option>
+                    </select>
+                    <input type="text" name="country" id="country" placeholder="Only If Other is selected">
+                </div>
+                <br>
+                <div>
+                    <label for="Qualification">Qualification</label>
+                    <table>
+                        <thead>
+                            <th>SL.No.Examination</th>
+                            <th>Board/University</th>
+                            <th>Percentage/CGPA</th>
+                            <th>Year of Passing or Passing by Year</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1. Class X</td>
+                                <td><input type="text" id="Board/University" name="Board/University"
+                                        placeholder="Board or University"></td>
+                                <td><input type="number" id="Percentage/CGPA" name="Percentage/CGPA"
+                                        placeholder="Upto 2 Decimals Only"></td>
+                                <td><input type="number" id="Year of Passing or Passing by Year"
+                                        name="Year of Passing or Passing by Year"
+                                        placeholder="Year of Passing or Passing by Year"></td>
+
+                            </tr>
+                            <tr>
+                                <td>2. Class XII</td>
+                                <td><input type="text" id="Board/University" name="Board/University"
+                                        placeholder="Board or University"></td>
+                                <td><input type="number" id="Percentage/CGPA" name="Percentage/CGPA"
+                                        placeholder="Upto 2 Decimals Only"></td>
+                                <td><input type="number" id="Year of Passing or Passing by Year"
+                                        name="Year of Passing or Passing by Year"
+                                        placeholder="Year of Passing or Passing by Year"></td>
+
+                            </tr>
+                            <tr>
+                                <td>3. Graduation (Bachelors)</td>
+                                <td><input type="text" id="Board/University" name="Board/University"
+                                        placeholder="Board or University"></td>
+                                <td><input type="number" id="Percentage/CGPA" name="Percentage/CGPA"
+                                        placeholder="Upto 2 Decimals Only"></td>
+                                <td><input type="number" id="Year of Passing or Passing by Year"
+                                        name="Year of Passing or Passing by Year"
+                                        placeholder="Year of Passing or Passing by Year"></td>
+                            </tr>
+                            <tr>
+                                <td>4. Graduation (Masters)</td>
+                                <td><input type="text" id="Board/University" name="Board/University"
+                                        placeholder="Board or University"></td>
+                                <td><input type="number" id="Percentage/CGPA" name="Percentage/CGPA"
+                                        placeholder="Upto 2 Decimals Only"></td>
+                                <td><input type="number" id="Year of Passing or Passing by Year"
+                                        name="Year of Passing or Passing by Year"
+                                        placeholder="Year of Passing or Passing by Year"></td>
+
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <br>
+                <div>
+                    <label for="courses">Course Want To Apply For: </label>
+                    &nbsp;&nbsp;&nbsp;
+                    <span id="BCA">BCA</span>
+                    <input type="checkbox" name="course" id="BCA" value="course">
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <span id="BCom">BCom</span>
+                    <input type="checkbox" name="course" id="BCom" value="course">
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <span id="BA">BA</span>
+                    <input type="checkbox" name="course" id="BA" value="course">
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <span id="BSC">BSC</span>
+                    <input type="checkbox" name="course" id="BSC" value="course">
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <span id="BBA">BBA</span>
+                    <input type="checkbox" name="course" id="BBA" value="course">
+                </div>
+                <br><br>
+                <div>
+                    <input type="submit" value="SUBMIT FORM">
+                    <input type="reset" value="RESET FORM">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
